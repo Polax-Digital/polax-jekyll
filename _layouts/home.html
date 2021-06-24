@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-12 col-md-7 col-lg-5">
                         <h1 id="home-title">{{page.title}}</h1>
-                        <p id="tagline">{{page.tagline}}</p>
+                        <p class="tagline">{{page.tagline}}</p>
                         <div class="work-with-us">
                             <a href="/contact">
                                 <p id="work-text">WORK WITH US</p></a
@@ -113,7 +113,7 @@
                         </div>
                     </div>
                     <div class="col-3 d-md-none"></div>
-                    <div class="col-6">
+                    <div class="col-6 col-md-4">
                         <div class="service-wrapper">
                             <img
                                 src="/assets/images/cloud.svg"
@@ -138,7 +138,7 @@
             <div class="content-container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <h2 class="subtitle">Our Portfolio</h2>
+                        <h2 class="subtitle">Our portfolio</h2>
                     </div>
                     <div class="col-12 col-md-6"></div>
                 </div>
@@ -152,7 +152,7 @@
                         Portfolio 4 Here
                     </div>
                 </div>
-                <div class="row">
+                <div class="row max-height">
                     <div class="d-none d-md-block col-md-6"></div>
                     <div class="col-12 col-md-6 portfolio-up">
                         <div class="p-link-wrapper">
@@ -168,5 +168,58 @@
                 </div>
             </div>
         </div>
+        <div id="our-partners" class="section">
+            <div class="content-container">
+                <div class="row">
+                    <div class="col-12 partner-tags">
+                        <h2 class="subtitle text-center-desktop">Our partners</h2>
+                        <p class="tagline text-center-desktop">{{page.partner-tagline}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="partner-wrapper">
+                            <img src="/assets/images/linode.png" alt="Linode Partnership Logo" height="65px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="happy-clients" class="section">
+            <div class="content-container">
+                <div class="row">
+                    <div class="col-12 col-md-6 client-text-wrapper">
+                        <h2 class="subtitle">Happy clients</h2>
+                        <p class="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis consectetur corporis, corrupti perferendis ipsa possimus vitae. Quaerat, esse ullam?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="what-youll-get" class="section">
+            <div class="content-container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2 class="subtitle">What you'll get</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="process-icon-wrapper"></div>
+                        <div class="process-text">
+                            <h3 class="process-title">
+                                Your Quote
+                            </h3>
+                            <p class="tagline process-p">Every website, API or application is different - we will work with you to understand your requirements and <span class="tagline-orange">calculate a price to match.</span></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6"></div>
+                    <div class="col-12 col-md-6"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+

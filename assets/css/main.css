@@ -18,6 +18,10 @@ p {
     margin: 1.5rem 0;
 }
 
+.tagline-orange {
+    color: var(--polax-orange);
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -35,15 +39,21 @@ a {
 
 .text-center {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .subtitle {
     font-size: clamp(2rem, 0.2222rem + 3.7037vw, 3rem);
 }
 
+.max-height {
+    max-height: 5vh;
+}
+
 /* Navbar */
 nav {
-    width: 100vw;
+    width: 100%;
     background-color: lightblue;
 }
 
@@ -83,7 +93,7 @@ nav {
     line-height: 4.78125rem;
 }
 
-#tagline {
+.tagline {
     line-height: 2rem;
     max-width: 50ch;
 }
@@ -169,4 +179,70 @@ nav {
     position: relative;
     top: 4px;
     margin-left: 10px;
+}
+
+/* Partners */
+
+.partner-tags > h2 {
+    margin-bottom: 0;
+}
+
+.partner-tags > p {
+    margin-top: 0.75rem;
+}
+
+.partner-wrapper > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale();
+    transition: filter 0.3s;
+}
+
+.partner-wrapper > img:hover {
+    filter: none;
+}
+
+/* Testimonials */
+
+.client-text-wrapper {
+    margin-left: 5rem;
+}
+
+.client-text-wrapper::before {
+    display: inline-block;
+    content: url('/assets/images/quote-mark.svg');
+    width: 2rem;
+    filter: opacity(0.5);
+    position: relative;
+    top: 6.5rem;
+    left: -5.7rem;
+}
+
+.client-text-wrapper > h2 {
+    margin-bottom: 0;
+}
+
+.client-text-wrapper > p {
+    margin-top: 10px;
+}
+
+/* Process */
+
+.process-p {
+    line-height: 1.625rem;
+}
+
+.process-title {
+    font-size: clamp(1.125rem, -0.1607rem + 2.6786vw, 1.5rem);
+    font-weight: 600;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .text-center-desktop {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
