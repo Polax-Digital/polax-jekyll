@@ -189,3 +189,21 @@ nav {
 .partner-logos .col-md-4 {
     margin-bottom: 15px;
 }
+
+/* What you'll get */
+
+.wyg-title {
+    margin: 0;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.wyg-text {
+    line-height: 26px;
+    margin-top: 8px;
+}
+
+.highlight {
+    color: var(--polax-orange);
+    font-weight: 500;
+}
