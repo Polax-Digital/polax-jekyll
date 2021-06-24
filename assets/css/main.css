@@ -170,3 +170,22 @@ nav {
     top: 4px;
     margin-left: 10px;
 }
+
+/* Partners */
+
+#our-partners h2 {
+    margin: 0;
+    margin-bottom: 8px
+}
+
+#our-partners p {
+    margin: 0;
+}
+
+.partner-logos {
+    margin-top: 45px !important;
+}
+
+.partner-logos .col-md-4 {
+    margin-bottom: 15px;
+}
