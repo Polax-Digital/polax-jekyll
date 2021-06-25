@@ -238,6 +238,26 @@ nav {
     font-weight: 600;
 }
 
+#wyg-offset {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.wyg-title {
+    margin-top: 0;
+}
+
+/* Contact */
+
+#contact-paragraph {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .text-center-desktop {
