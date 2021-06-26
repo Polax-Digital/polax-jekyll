@@ -238,6 +238,67 @@ nav {
     font-weight: 600;
 }
 
+/* Portfolio page */
+
+.pf-wrapper {
+    margin-bottom: 8rem;
+}
+
+#pf-title {
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.pf-img-container {
+    width: 100%;
+    height: 25vw;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 3.5vw;
+}
+
+.pf-img {
+    width: 50vw;
+    box-shadow: 3px 2px 30px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pf-subtitle {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 0;
+}
+
+.pf-type {
+    font-size: 38px;
+    line-height: 50px;
+    color: #c4c4c4;
+    margin-top: 0;
+}
+
+.pf-text {
+    font-size: 28px;
+}
+
+#p1 {
+    background-color: #C7C4F3;
+}
+
+#p1 .pf-img {
+    box-shadow: none;
+}
+
+#p2 {
+    background-color: #89EFB4;
+}
+
+#p3 {
+    background-color: #B4E4FF;
+}
+
+#p4 {
+    background-color: #FFB4B4;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .text-center-desktop {
