@@ -258,8 +258,17 @@ nav {
 }
 
 .pf-img {
-    width: 50vw;
+    width: 30vw;
     box-shadow: 3px 2px 30px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pf-img-left {
+    margin-right: -5vw;
+}
+
+.pf-img-right {
+    margin-left: -5vw;
+    padding-top: 2.5vw;
 }
 
 .pf-subtitle {
@@ -285,6 +294,7 @@ nav {
 
 #p1 .pf-img {
     box-shadow: none;
+    width: 50vw;
 }
 
 #p2 {
