@@ -321,3 +321,35 @@ nav {
         margin-right: auto;
     }
 }
+
+@media (max-width: 768px) {
+    #pf-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 920px) {
+    .pf-subtitle {
+        font-size: 38px;
+        line-height: normal;
+    }
+    .pf-type {
+        font-size: 28px;
+        line-height: normal;
+        margin: 0;
+    }
+    .pf-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #pf-title {
+        margin-top: 0;
+        font-size: 50px;
+        line-height: normal;
+    }
+    .pf-wrapper {
+        margin-bottom: 4rem;
+    }
+}
