@@ -17,8 +17,13 @@ p3-type: Web Development
 p3-image: ewe
 p3-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum nostrum nesciunt, error accusamus laboriosam nihil, quos nisi earum provident eius quasi labore voluptas rem.
 
-p4-title: Cardan Fire
+p4-title: Kent Formations
 p4-type: Web Development
-p4-image: cardanfire
+p4-image: kentformations
 p4-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum nostrum nesciunt, error accusamus laboriosam nihil, quos nisi earum provident eius quasi labore voluptas rem.
+
+p5-title: Cardan Fire
+p5-type: Web Development
+p5-image: cardanfire
+p5-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum nostrum nesciunt, error accusamus laboriosam nihil, quos nisi earum provident eius quasi labore voluptas rem.
 ---
