@@ -291,6 +291,11 @@ hr {
     margin-right: 15px;
 }
 
+.highlight {
+    color: var(--polax-orange);
+    font-weight: 500;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .text-center-desktop {
