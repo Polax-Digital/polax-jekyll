@@ -245,8 +245,10 @@ nav {
 }
 
 #pf-title {
-    font-size: 72px;
+    font-size: 60px;
     line-height: 76px;
+    text-align: center;
+    margin-top: 0;
 }
 
 .pf-img-container {
@@ -258,7 +260,7 @@ nav {
 }
 
 .pf-img {
-    width: 30vw;
+    width: 20vw;
     box-shadow: 3px 2px 30px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -274,7 +276,7 @@ nav {
 .pf-subtitle {
     font-size: 48px;
     line-height: 64px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .pf-type {
@@ -294,7 +296,7 @@ nav {
 
 #p1 .pf-img {
     box-shadow: none;
-    width: 50vw;
+    width: 40vw;
 }
 
 #p2 {
