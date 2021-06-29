@@ -235,7 +235,8 @@ nav {
 
 .process-title {
     font-size: clamp(1.125rem, -0.1607rem + 2.6786vw, 1.5rem);
-    font-weight: 600;
+    font-weight: 500;
+    margin: 0;
 }
 
 /* Portfolio page */
