@@ -447,10 +447,13 @@ textarea::placeholder {
     font-weight: 700;
     color: var(--polax-orange);
     background: var(--orange-bgc);
+    transition: background 0.2s ease-in-out;
 }
 
-#form-submit:hover {
+#form-submit:hover,
+#form-submit:focus-within {
     cursor: pointer;
+    background: rgba(255, 214, 180, 0.8);
 }
 
 .form-image-wrapper {
@@ -483,7 +486,7 @@ textarea::placeholder {
     .form-image-wrapper > img {
         width: 500px;
     }
-} ;
+}
 @media (max-width: 1200px) {
     #pf-title {
         margin-top: 0;
@@ -534,4 +537,3 @@ textarea::placeholder {
         justify-content: center;
     }
 }
-
