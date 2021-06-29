@@ -240,8 +240,13 @@ nav {
 
 /* Portfolio page */
 
+#pf-content {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
 .pf-wrapper {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 }
 
 #pf-title {
@@ -260,7 +265,7 @@ nav {
 }
 
 .pf-img {
-    width: 20vw;
+    width: 18vw;
     box-shadow: 3px 2px 30px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -296,7 +301,7 @@ nav {
 
 #p1 .pf-img {
     box-shadow: none;
-    width: 40vw;
+    width: 38vw;
 }
 
 #p2 {
@@ -324,13 +329,15 @@ nav {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     #pf-title {
-        font-size: 30px;
+        margin-top: 0;
+        font-size: 50px;
+        line-height: normal;
     }
-}
-
-@media (max-width: 920px) {
+    .pf-wrapper {
+        margin-bottom: 4rem;
+    }
     .pf-subtitle {
         font-size: 38px;
         line-height: normal;
@@ -344,14 +351,23 @@ nav {
         font-size: 20px;
     }
 }
-
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     #pf-title {
-        margin-top: 0;
-        font-size: 50px;
-        line-height: normal;
+        font-size: 30px;
     }
-    .pf-wrapper {
-        margin-bottom: 4rem;
+    #p1 .pf-img {
+        width: 70vw;
+    }
+    .pf-subtitle {
+        padding-top: 1rem;
+    }
+    .pf-img-container {
+        min-height: 200px;
+    }
+    .pf-img {
+        width: 30vw;
+    }
+    .flipped {
+        order: -1;
     }
 }
