@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{{ page.title }} - Polax Digital</title>
+        <title>Polax Digital - {{ page.title }}</title>
 
         <link rel="icon" href="/assets/images/favicon.png" />
 
@@ -13,6 +13,16 @@
             href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:wght@400;500;700;800&display=swap"
             rel="stylesheet"
         />
+
+        <script
+            src="https://kit.fontawesome.com/99905c1556.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://kit.fontawesome.com/99905c1556.js"
+            crossorigin="anonymous"
+        ></script>
 
         <link rel="stylesheet" href="/assets/css/main.css" />
         <link rel="stylesheet" href="/assets/css/bsg.css" />
@@ -229,8 +239,8 @@
                                 />
                             </div>
                             <div class="col-10">
-                                <h4 class="wyg-title">Your Quote</h4>
-                                <p class="wyg-text">
+                                <h4 class="process-title">Your Quote</h4>
+                                <p class="process-p">
                                     Every website, API or application is
                                     different - we will work with you to
                                     understand exactly what you want and
@@ -250,8 +260,8 @@
                                 />
                             </div>
                             <div class="col-10">
-                                <h4 class="wyg-title">Your Design</h4>
-                                <p class="wyg-text">
+                                <h4 class="process-title">Your Design</h4>
+                                <p class="process-p">
                                     We'll sketch out an intial design for your
                                     product. Not what you were looking for?
                                     We'll redesign it to fit your ideas better,
@@ -271,8 +281,8 @@
                                 />
                             </div>
                             <div class="col-10">
-                                <h4 class="wyg-title">Your Product</h4>
-                                <p class="wyg-text">
+                                <h4 class="process-title">Your Product</h4>
+                                <p class="process-p">
                                     We will develop your solution: cooperating
                                     with you every step of the way until we have
                                     a product
@@ -290,8 +300,8 @@
                                 />
                             </div>
                             <div class="col-10">
-                                <h4 class="wyg-title">Your Future</h4>
-                                <p class="wyg-text">
+                                <h4 class="process-title">Your Future</h4>
+                                <p class="process-p">
                                     Retaining a relationship is crucial and no
                                     one knows the technical aspects of your
                                     product better than us. We will offer
@@ -306,6 +316,10 @@
                 </div>
             </div>
         </div>
+      
         {%include form.html%}
+
+        {% include footer.html %}
+
     </body>
 </html>
