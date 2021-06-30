@@ -368,13 +368,16 @@ footer {
     line-height: 26px;
 }
 
-.footer-menu .nav-item:hover {
+.footer-menu .nav-item:hover,
+.footer-menu .nav-item:focus-within {
     text-decoration: underline;
 }
 
-.socials .nav-item:hover {
+.socials .nav-item:hover,
+.socials .nav-item:focus-within {
     text-decoration: none;
     color: var(--polax-orange);
+    cursor: pointer;
 }
 
 hr {
