@@ -116,6 +116,8 @@ nav {
 .tagline {
     line-height: 2rem;
     max-width: 50ch;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 #work-text {
@@ -147,7 +149,21 @@ nav {
     background-color: var(--polax-orange);
 }
 
+.lottie-container {
+    display: grid;
+    place-items: center;
+}
+
+.lottie-container > lottie-player {
+    position: relative;
+    margin-top: -3vh;
+}
+
 /* What we do */
+
+#wwd-title {
+    margin-top: 0;
+}
 
 .service-icon {
     display: block;
@@ -225,12 +241,9 @@ nav {
 
 /* Testimonials */
 
-.client-text-wrapper {
-    margin-left: 5rem;
-}
-
 .client-text-wrapper::before {
-    display: inline-block;
+    display: inline;
+    z-index: -1;
     content: url("/assets/images/quote-mark.svg");
     width: 2rem;
     filter: opacity(0.5);
@@ -245,6 +258,44 @@ nav {
 
 .client-text-wrapper > p {
     margin-top: 10px;
+}
+
+#testimonial-tagline {
+    max-width: 40ch;
+}
+
+#testimonial-offset {
+    margin-top: 11rem;
+}
+
+.testimonial-box-desktop {
+    padding: 2rem;
+    box-shadow: 0px 10px 20px rgba(41, 41, 41, 0.15);
+    border-radius: 8px;
+    max-width: 40ch;
+}
+
+.box-margin {
+    margin-top: 3rem;
+}
+
+.testimonial-paragraph-desktop {
+    line-height: 2rem;
+    max-width: 40ch;
+}
+
+.testimonial-name-desktop {
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 0;
+    max-width: 40ch;
+}
+
+.testimonial-position-desktop {
+    font-weight: 500;
+    color: #969bab;
+    margin-top: 0;
+    max-width: 40ch;
 }
 
 /* Process */
@@ -639,12 +690,84 @@ textarea::placeholder {
     .pf-landing .pf-text {
         margin-bottom: 2rem;
     }
-}
-@media (max-width: 768px) {
     .copyright {
         text-align: center;
     }
     .socials .footer-menu {
         justify-content: center;
+    }
+    #testimonial-offset {
+        margin-top: 3rem;
+    }
+    #testimonial-offset > .testimonial-box-desktop {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pl-wrapper > .testimonial-box-desktop {
+        margin-top: 1rem;
+    }
+    .client-text-wrapper::before {
+        left: 0rem;
+    }
+    .client-text-wrapper > h2,
+    .client-text-wrapper > p {
+        margin-left: 2rem;
+    }
+    .client-text-wrapper > h2 {
+        margin-top: 3rem;
+    }
+    .pl-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .pl-wrapper {
+        padding-left: 0ch !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    .pl-wrapper {
+        padding-left: 20ch !important;
+    }
+}
+
+/* Hero Queries */
+@media (min-width: 768px) {
+    .lottie-container > lottie-player {
+        margin-top: 3vh;
+    }
+    .pl-wrapper {
+        padding-left: 10ch;
+    }
+}
+
+@media (min-width: 992px) {
+    .lottie-container > lottie-player {
+        margin-top: -3vh;
+        place-items: center end;
+    }
+}
+
+@media (min-width: 1150px) {
+    .lottie-container > lottie-player {
+        margin-top: -6vh;
+    }
+    #home-title {
+        margin-top: 0vh;
+    }
+    #what-we-do {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .lottie-container > lottie-player {
+        margin-top: -8vh;
+    }
+    #home-title {
+        margin-top: 6.5vh;
     }
 }

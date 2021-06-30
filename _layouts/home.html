@@ -9,7 +9,7 @@
         <div id="hero">
             <div class="content-container">
                 <div class="row">
-                    <div class="col-12 col-md-7 col-lg-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <h1 id="home-title">{{page.title}}</h1>
                         <p class="tagline">{{page.tagline}}</p>
                         <div class="work-with-us">
@@ -18,8 +18,18 @@
                             >
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 col-lg-7">
-                        Some cool image will go here soon.
+                    <div class="col-12 col-md-6 col-lg-7">
+                        <div class="lottie-container">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player
+                                src="https://assets3.lottiefiles.com/packages/lf20_wft047ej.json"
+                                background="transparent"
+                                speed="0.7"
+                                style="max-width: 750px; max-height: 750px"
+                                loop
+                                autoplay
+                            ></lottie-player>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -28,7 +38,9 @@
             <div class="content-container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="subtitle text-center">What we do</h2>
+                        <h2 class="subtitle text-center" id="wwd-title">
+                            What we do
+                        </h2>
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -257,12 +269,66 @@
                 <div class="row">
                     <div class="col-12 col-md-6 client-text-wrapper">
                         <h2 class="subtitle">Happy clients</h2>
-                        <p class="tagline">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur blanditiis consectetur corporis,
-                            corrupti perferendis ipsa possimus vitae. Quaerat,
-                            esse ullam?
+                        <p class="tagline" id="testimonial-tagline">
+                            {{page.client-tagline}}
                         </p>
+                        <div class="pl-wrapper">
+                            <div class="testimonial-box-desktop box-margin">
+                                <img
+                                    src="/assets/images/contentfnnl.png"
+                                    alt="Cardan Fire Logo"
+                                    width="260"
+                                    height="70"
+                                />
+                                <p class="testimonial-paragraph-desktop">
+                                    They've been nothing but professional and
+                                    always happy to go the extra mile.<br /><br />They're
+                                    a competent web development business who
+                                    have been taking the lead to support the
+                                    development across numerous build projects.
+                                </p>
+                                <p class="testimonial-name-desktop">
+                                    Greig Dowling
+                                </p>
+                                <p class="testimonial-position-desktop">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" id="testimonial-offset">
+                        <div class="testimonial-box-desktop">
+                            <img
+                                src="/assets/images/webp/cardanfire.webp"
+                                alt="Cardan Fire Logo"
+                                width="260"
+                                height="50"
+                            />
+                            <p class="testimonial-paragraph-desktop">
+                                Very professional, attentive and
+                                receptive...nothing was too much trouble for
+                                Daniel and the team. We are very pleased with
+                                the output and are comfortable and confident
+                                that any future tweaks will not be of issue.
+                            </p>
+                            <p class="testimonial-name-desktop">Stuart</p>
+                            <p class="testimonial-position-desktop">Director</p>
+                        </div>
+                        <div class="testimonial-box-desktop box-margin">
+                            <img
+                                src="/assets/images/webp/cardanfire.webp"
+                                alt="Cardan Fire Logo"
+                                width="260"
+                                height="50"
+                            />
+                            <p class="testimonial-paragraph-desktop">
+                                Very professional, attentive and receptive...
+                                nothing was too much trouble for Daniel and the
+                                team. We are very pleased with the output and
+                                are comfortable and confident that any future
+                                tweaks will not be of issue.
+                            </p>
+                            <p class="testimonial-name-desktop">John Doe</p>
+                            <p class="testimonial-position-desktop">CEO</p>
+                        </div>
                     </div>
                 </div>
             </div>

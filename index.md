@@ -3,7 +3,7 @@ title: Home | Polax Digital
 layout: home
 
 title: Empowering businesses online
-tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
+tagline: We work with your company to design, develop and deliver bespoke websites, applications and digital products to ensure your business thrives online. <span class="tagline-orange">More time to put your feet up.</span>
 
 p1-title: Contentfnnl
 p1-type: Web Application <br> Web Development
@@ -35,7 +35,9 @@ p5-image: cardanfire
 p5-description: Cardan Fire is a professional fire safety consultancy based in the South of England ensuring that businesses, landlords and individuals comply to the Fire Safety Laws within the UK.
 p5-link: https://cardanfire.co.uk/
 
-partner-tagline: We work with great brands to provide you fantastic products.
+partner-tagline: We work with industry-leading brands to provide you fantastic results with no compromise on quality.
+
+client-tagline: Don't just take our word for it.<br>Hear from some of the clients who's businesses we've helped empower online.
 ---
 
 This is some cool stuff.
