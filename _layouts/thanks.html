@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{page.title}} - Polax Digital</title>
+        {% include header.html %}
+    </head>
+    <body>
+        {% include navbar.html %}
+        <div class="content-container" id="thanks-container">
+            <h1 id="home-title">Thank You.</h1>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+                src="https://assets10.lottiefiles.com/packages/lf20_icefdxk9.json"
+                background="transparent"
+                speed="0.8"
+                style="width: 500px; height: 500px"
+                loop
+                autoplay
+            ></lottie-player>
+            <p id="thanks-text">
+                A member of our team will be in touch as soon as possible.
+            </p>
+            <a href="/"> <button id="go-home">Back to our site</button></a>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>
