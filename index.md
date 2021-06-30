@@ -17,7 +17,9 @@ p3-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
 p4-title: Project 4 Title
 p4-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum nostrum nesciunt, error accusamus laboriosam nihil, quos nisi earum provident eius quasi labore voluptas rem.
 
-partner-tagline: We work with great brands to provide you fantastic products.
+partner-tagline: We work with industry-leading brands to provide you fantastic results with no compromise on quality.
+
+client-tagline: Don't just take our word for it.<br>Hear from some of the clients who's businesses we've helped empower online.
 ---
 
 This is some cool stuff.
