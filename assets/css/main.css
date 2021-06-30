@@ -5,6 +5,7 @@
     --polax-orange: #ff7502;
     --orange-bgc: rgba(255, 214, 180, 0.5);
     --nav-hover: #ff9e4e;
+    --form-green: #6cd899;
 }
 
 html {
@@ -478,6 +479,45 @@ textarea::placeholder {
 .form-image-wrapper > img {
     width: 400px;
     margin-top: 11rem;
+}
+
+/* Contact Page */
+#contact-hero {
+    margin-top: 5vh;
+}
+
+#contact-values {
+    margin-top: 0;
+}
+
+#contact-about {
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+    color: var(--form-green);
+    letter-spacing: 2px;
+}
+
+#contact-about-para {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+    max-width: 45ch;
+}
+
+#contact-form-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+#contact-form-link > p {
+    color: var(--polax-orange);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+#contact-form-link > img {
+    position: relative;
+    top: 0rem;
 }
 
 /* Media Queries */
