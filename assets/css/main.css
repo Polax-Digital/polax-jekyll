@@ -551,6 +551,7 @@ textarea::placeholder {
 
 .form-image-wrapper > img {
     width: 400px;
+    max-width: 95vw;
     margin-top: 11rem;
 }
 
