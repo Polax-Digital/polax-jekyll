@@ -10,6 +10,7 @@
 
 html {
     max-width: 100vw;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -443,6 +444,11 @@ textarea {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     resize: vertical;
+}
+
+select {
+    padding-left: 0.8rem;
+    padding-right: 1.2rem;
 }
 
 input::placeholder,
