@@ -3,7 +3,7 @@ title: Home | Polax Digital
 layout: home
 
 title: Empowering businesses online
-tagline: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
+tagline: We work with your company to design, develop and deliver bespoke websites, applications and digital products to ensure your business thrives online. <span class="tagline-orange">More time to put your feet up.</span>
 
 p1-title: Project 1 Title
 p1-description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum nostrum nesciunt, error accusamus laboriosam nihil, quos nisi earum provident eius quasi labore voluptas rem.

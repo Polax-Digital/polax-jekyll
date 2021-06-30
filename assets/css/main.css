@@ -116,6 +116,8 @@ nav {
 .tagline {
     line-height: 2rem;
     max-width: 50ch;
+    font-weight: 400;
+    font-size: 1.25rem;
 }
 
 #work-text {
@@ -147,7 +149,21 @@ nav {
     background-color: var(--polax-orange);
 }
 
+.lottie-container {
+    display: grid;
+    place-items: center;
+}
+
+.lottie-container > lottie-player {
+    position: relative;
+    margin-top: -3vh;
+}
+
 /* What we do */
+
+#wwd-title {
+    margin-top: 0;
+}
 
 .service-icon {
     display: block;
@@ -629,5 +645,40 @@ textarea::placeholder {
     }
     .socials .footer-menu {
         justify-content: center;
+    }
+}
+
+/* Hero Queries */
+@media (min-width: 768px) {
+    .lottie-container > lottie-player {
+        margin-top: 3vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .lottie-container > lottie-player {
+        margin-top: -3vh;
+        place-items: center end;
+    }
+}
+
+@media (min-width: 1150px) {
+    .lottie-container > lottie-player {
+        margin-top: -6vh;
+    }
+    #home-title {
+        margin-top: 0vh;
+    }
+    #what-we-do {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .lottie-container > lottie-player {
+        margin-top: -8vh;
+    }
+    #home-title {
+        margin-top: 6.5vh;
     }
 }
