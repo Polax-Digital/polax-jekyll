@@ -195,7 +195,7 @@ nav {
 /* Portfolio */
 
 .portfolio-up {
-    transform: translateY(-5vh);
+    transform: translateY(-10vh);
     min-height: 20vh;
 }
 
@@ -365,6 +365,17 @@ nav {
 
 .pf-text {
     font-size: 1.4rem;
+}
+
+.pf-landing .pf-subtitle {
+    font-size: clamp(1.125rem, -0.1607rem + 2.6786vw, 1.5rem);
+    font-weight: 500;
+}
+
+.pf-landing .pf-text {
+    font-size: clamp(0.875rem, 0.4464rem + 0.8929vw, 1rem);
+    margin-top: 0;
+    margin-bottom: 4rem;
 }
 
 #p1 {
@@ -672,6 +683,12 @@ textarea::placeholder {
     }
     .flipped {
         order: -1;
+    }
+    .portfolio-up {
+        transform: none;
+    }
+    .pf-landing .pf-text {
+        margin-bottom: 2rem;
     }
     .copyright {
         text-align: center;
