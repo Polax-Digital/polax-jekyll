@@ -162,7 +162,6 @@ label {
     width: 100vw;
     background-color: var(--form-grey);
     z-index: 1;
-    padding-left: 0 !important;
 }
 
 .mobile-nav-menu {
@@ -174,6 +173,7 @@ label {
     text-align: center;
     text-decoration: none;
     padding-bottom: 20vh;
+    padding-left: 0 !important;
 }
 
 .mobile-nav-menu > li {
