@@ -5,7 +5,16 @@
         {% include header.html %}
     </head>
     <body>
-        {% include navbar.html %}
+        <script>
+            function checkCheck() {
+                if (document.getElementById("check").checked) {
+                    document.getElementById("transitioncheck").checked = true;
+                } else {
+                    document.getElementById("transitioncheck").checked = false;
+                }
+            }
+        </script>
+        {% include navbar.html %} {% include mobilenav.html %}
         <div class="content-container" id="thanks-container">
             <h1 id="home-title">Thank You.</h1>
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

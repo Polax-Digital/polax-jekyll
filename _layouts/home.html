@@ -5,7 +5,16 @@
         {% include header.html %}
     </head>
     <body>
-        {% include navbar.html %}
+        <script>
+            function checkCheck() {
+                if (document.getElementById("check").checked) {
+                    document.getElementById("transitioncheck").checked = true;
+                } else {
+                    document.getElementById("transitioncheck").checked = false;
+                }
+            }
+        </script>
+        {% include navbar.html %} {% include mobilenav.html %}
         <div id="hero">
             <div class="content-container">
                 <div class="row">
@@ -378,11 +387,14 @@
                                 class="test-img"
                             />
                             <p class="testimonial-paragraph-desktop">
-                                Great service and highly recommended team of talented developers. 
-                                Polax have helped deliver many projects for me over the past year.
+                                Great service and highly recommended team of
+                                talented developers. Polax have helped deliver
+                                many projects for me over the past year.
                             </p>
                             <p class="testimonial-name-desktop">Ersen Salih</p>
-                            <p class="testimonial-position-desktop">Managing Partner</p>
+                            <p class="testimonial-position-desktop">
+                                Managing Partner
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -399,13 +411,13 @@
                 <div class="row" id="wyg-offset">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/quote.svg"
                                     alt="Your quote"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Quote</h4>
                                 <p class="process-p">
                                     Every website, API or application is
@@ -420,13 +432,13 @@
                     </div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/design.svg"
                                     alt="Your design"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Design</h4>
                                 <p class="process-p">
                                     We'll sketch out an intial design for your
@@ -441,13 +453,13 @@
                 <div class="row" id="wyg-offset">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/product.svg"
                                     alt="Your product"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Product</h4>
                                 <p class="process-p">
                                     We will develop your solution: cooperating
@@ -460,13 +472,13 @@
                     </div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/future.svg"
                                     alt="Your future"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Future</h4>
                                 <p class="process-p">
                                     Retaining a relationship is crucial and no
