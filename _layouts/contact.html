@@ -5,7 +5,16 @@
         {% include header.html %}
     </head>
     <body>
-        {% include navbar.html %}
+        <script>
+            function checkCheck() {
+                if (document.getElementById("check").checked) {
+                    document.getElementById("transitioncheck").checked = true;
+                } else {
+                    document.getElementById("transitioncheck").checked = false;
+                }
+            }
+        </script>
+        {% include navbar.html %} {% include mobilenav.html %}
         <div class="content-container" id="contact-hero">
             <div class="row">
                 <div class="col-12 col-md-6">Picture Here</div>
