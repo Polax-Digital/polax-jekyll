@@ -1,1 +1,4 @@
 name: Polax Digital's Website
+url: "https://polax.co.uk"
+plugins:
+    - jekyll-sitemap
