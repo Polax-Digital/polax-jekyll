@@ -1,6 +1,7 @@
 ---
 title: Portfolio
 layout: portfolio
+metadesc: View our portfolio to see the businesses we have helped supercharge their presence online and drive success.
 
 p1-title: Contentfnnl
 p1-type: Web Application <br> Web Development
