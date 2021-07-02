@@ -1,49 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Polax Digital - {{ page.title }}</title>
-
-        <link rel="icon" href="/assets/images/favicon.png" />
-
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:wght@400;500;700;800&display=swap"
-            rel="stylesheet"
-        />
-
-        <script
-            src="https://kit.fontawesome.com/99905c1556.js"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://kit.fontawesome.com/99905c1556.js"
-            crossorigin="anonymous"
-        ></script>
-
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <link rel="stylesheet" href="/assets/css/bsg.css" />
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        {% include header.html %}
     </head>
     <body>
-        {% include navbar.html %}
-        <div id="hero" data-aos="fade-up" data-aos-duration="1000">
+        {% include navbar.html %} {% include mobilenav.html %}
+        <div id="hero">
             <div class="content-container">
                 <div class="row">
-                    <div class="col-12 col-md-7 col-lg-5">
+                    <div class="col-12 col-md-6 col-lg-5">
                         <h1 id="home-title">{{page.title}}</h1>
                         <p class="tagline">{{page.tagline}}</p>
                         <div class="work-with-us">
-                            <a href="/contact">
+                            <a href="#form">
                                 <p id="work-text">WORK WITH US</p></a
                             >
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 col-lg-7">
-                        Some cool image will go here soon.
+                    <div class="col-12 col-md-6 col-lg-7">
+                        <div class="lottie-container">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player
+                                src="https://assets3.lottiefiles.com/packages/lf20_wft047ej.json"
+                                background="transparent"
+                                speed="0.7"
+                                style="max-width: 750px; max-height: 750px"
+                                loop
+                                autoplay
+                            ></lottie-player>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,7 +44,9 @@
             <div class="content-container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="subtitle text-center">What we do</h2>
+                        <h2 class="subtitle text-center" id="wwd-title">
+                            What we do
+                        </h2>
                     </div>
                 </div>
                 <div class="row mt-3">
@@ -67,7 +55,8 @@
                             <img
                                 src="/assets/images/webdev.svg"
                                 alt="Web Development icon"
-                                width="150px"
+                                height="150"
+                                width="150"
                                 class="service-icon"
                             />
                             <h3 class="service-title text-center">
@@ -84,15 +73,16 @@
                             <img
                                 src="/assets/images/api.svg"
                                 alt="API (Application Programming Interface) icon"
-                                width="150px"
+                                height="150"
+                                width="150"
                                 class="service-icon"
                             />
                             <h3 class="service-title text-center">
                                 API Development
                             </h3>
                             <p class="service-paragraph text-center">
-                                Robust, scalable APIs which connect your data to
-                                the customer
+                                Robust, scalable APIs which connect data to you
+                                and your customer
                             </p>
                         </div>
                     </div>
@@ -101,7 +91,8 @@
                             <img
                                 src="/assets/images/webapps.svg"
                                 alt="Web Applications icon"
-                                width="150px"
+                                height="150"
+                                width="150"
                                 class="service-icon"
                             />
                             <h3 class="service-title text-center">
@@ -119,15 +110,16 @@
                             <img
                                 src="/assets/images/seo.svg"
                                 alt="SEO (Search Engine Optimisation) Services icon"
-                                width="150px"
+                                height="150"
+                                width="150"
                                 class="service-icon"
                             />
                             <h3 class="service-title text-center">
                                 SEO Services
                             </h3>
                             <p class="service-paragraph text-center">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Est, dolores.
+                                Improve your visual presence online to maximise
+                                sales and performance
                             </p>
                         </div>
                     </div>
@@ -137,15 +129,16 @@
                             <img
                                 src="/assets/images/cloud.svg"
                                 alt="Web Development icon"
-                                width="150px"
+                                height="150"
+                                width="150"
                                 class="service-icon"
                             />
                             <h3 class="service-title text-center">
                                 Cloud Solutions
                             </h3>
                             <p class="service-paragraph text-center">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Ratione ad quaerat harum!
+                                From managed hosting to Office 365. Cutting edge
+                                solutions to enhance your business
                             </p>
                         </div>
                     </div>
@@ -167,14 +160,173 @@
                     </div>
                     <div class="col-12 col-md-6"></div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">Portfolio 1 Here</div>
-                    <div class="col-12 col-md-6 portfolio-up">
-                        Portfolio 2 Here
+                <div class="row gx-5">
+                    <div class="col-12 col-md-6 pf-landing">
+                        <div class="pf-img-container" id="p1">
+                            <picture class="d-flex justify-content-center">
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/portfolio/{{ page.p1-image }}.webp"
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/portfolio/{{  page.p1-image }}.png"
+                                />
+                                <img
+                                    src="/assets/images/portfolio/{{  page.p1-image }}.png"
+                                    class="pf-img"
+                                    alt="Portfolio Image"
+                                    height="500"
+                                    width="1000"
+                                />
+                            </picture>
+                        </div>
+                        <h2 class="pf-subtitle">{{ page.p1-title }}</h2>
+                        <p class="pf-text">{{ page.p1-description }}</p>
                     </div>
-                    <div class="col-12 col-md-6">Portfolio 3 Here</div>
-                    <div class="col-12 col-md-6 portfolio-up">
-                        Portfolio 4 Here
+                    <div class="col-12 col-md-6 portfolio-up pf-landing">
+                        <div class="pf-img-container" id="p2">
+                            <div class="row">
+                                <div class="col pf-img-left">
+                                    <picture class="d-flex justify-content-end">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p2-image }}.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p2-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p2-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                                <div class="col pf-img-right">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p2-image }}2.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p2-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p2-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            width="480"
+                                            height="750"
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="pf-subtitle">{{ page.p2-title }}</h2>
+                        <p class="pf-text">{{ page.p2-description }}</p>
+                    </div>
+                    <div class="col-12 col-md-6 pf-landing">
+                        <div class="pf-img-container" id="p3">
+                            <div class="row">
+                                <div class="col pf-img-left">
+                                    <picture class="d-flex justify-content-end">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p3-image }}.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p3-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p3-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                                <div class="col pf-img-right">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p3-image }}2.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p3-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p3-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="pf-subtitle">{{ page.p3-title }}</h2>
+                        <p class="pf-text">{{ page.p3-description }}</p>
+                    </div>
+                    <div class="col-12 col-md-6 portfolio-up pf-landing">
+                        <div class="pf-img-container" id="p4">
+                            <div class="row">
+                                <div class="col pf-img-left">
+                                    <picture class="d-flex justify-content-end">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p4-image }}.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p4-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p4-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="550"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                                <div class="col pf-img-right">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p4-image }}2.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p4-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p4-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="pf-subtitle">{{ page.p4-title }}</h2>
+                        <p class="pf-text">{{ page.p4-description }}</p>
                     </div>
                 </div>
                 <div class="row max-height">
@@ -187,6 +339,8 @@
                                     src="/assets/images/arrow-right.svg"
                                     alt="Arrow pointing right"
                                     id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
                             /></a>
                         </div>
                     </div>
@@ -214,11 +368,25 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="partner-wrapper">
-                            <img
-                                src="/assets/images/linode.png"
-                                alt="Linode Partnership Logo"
-                                height="65px"
-                            />
+                            <picture>
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        /assets/images/webp/partners/linode.webp
+                                    "
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/linode.png"
+                                />
+                                <img
+                                    src="/assets/images/linode.png"
+                                    alt="Linode Partnership Logo"
+                                    height="65"
+                                    width="166"
+                                    id="partner-logo"
+                                />
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -236,12 +404,101 @@
                 <div class="row">
                     <div class="col-12 col-md-6 client-text-wrapper">
                         <h2 class="subtitle">Happy clients</h2>
-                        <p class="tagline">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur blanditiis consectetur corporis,
-                            corrupti perferendis ipsa possimus vitae. Quaerat,
-                            esse ullam?
+                        <p class="tagline" id="testimonial-tagline">
+                            {{page.client-tagline}}
                         </p>
+                        <div class="pl-wrapper">
+                            <div class="testimonial-box-desktop box-margin">
+                                <picture>
+                                    <source
+                                        type="image/webp"
+                                        srcset="
+                                            /assets/images/webp/contentfnnl.webp
+                                        "
+                                    />
+                                    <source
+                                        type="image/png"
+                                        srcset="/assets/images/contentfnnl.png"
+                                    />
+                                    <img
+                                        src="/assets/images/contentfnnl.png"
+                                        alt="Contentfnnl Logo"
+                                        width="260"
+                                        height="70"
+                                        class="test-img"
+                                    />
+                                </picture>
+                                <p class="testimonial-paragraph-desktop">
+                                    They've been nothing but professional and
+                                    always happy to go the extra mile.<br /><br />They're
+                                    a competent web development business who
+                                    have been taking the lead to support the
+                                    development across numerous build projects.
+                                </p>
+                                <p class="testimonial-name-desktop">
+                                    Greig Dowling
+                                </p>
+                                <p class="testimonial-position-desktop">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6" id="testimonial-offset">
+                        <div class="testimonial-box-desktop">
+                            <picture>
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/cardanfire.webp"
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/cardanfire.png"
+                                />
+                                <img
+                                    src="/assets/images/webp/cardanfire.png"
+                                    alt="Cardan Fire Logo"
+                                    width="260"
+                                    height="50"
+                                    class="test-img"
+                                />
+                            </picture>
+                            <p class="testimonial-paragraph-desktop">
+                                Very professional, attentive and
+                                receptive...nothing was too much trouble for
+                                Daniel and the team. We are very pleased with
+                                the output and are comfortable and confident
+                                that any future tweaks will not be of issue.
+                            </p>
+                            <p class="testimonial-name-desktop">Stuart</p>
+                            <p class="testimonial-position-desktop">Director</p>
+                        </div>
+                        <div class="testimonial-box-desktop box-margin">
+                            <picture>
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/dbs.webp"
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/dbs.png"
+                                />
+                                <img
+                                    src="/assets/images/webp/dbs.png"
+                                    alt="DBS Logo"
+                                    width="120"
+                                    height="60"
+                                    class="test-img"
+                                />
+                            </picture>
+                            <p class="testimonial-paragraph-desktop">
+                                Great service and highly recommended team of
+                                talented developers. Polax have helped deliver
+                                many projects for me over the past year.
+                            </p>
+                            <p class="testimonial-name-desktop">Ersen Salih</p>
+                            <p class="testimonial-position-desktop">
+                                Managing Partner
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -263,18 +520,20 @@
                 <div class="row" id="wyg-offset">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/quote.svg"
                                     alt="Your quote"
+                                    height="50"
+                                    width="50"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Quote</h4>
                                 <p class="process-p">
-                                    Every website, API or application is
-                                    different - we will work with you to
-                                    understand exactly what you want and
+                                    Every website, application or bespoke
+                                    solution is different - we will work with
+                                    you to understand exactly what you want and
                                     <span class="highlight"
                                         >we'll calculate a price to match.</span
                                     >
@@ -284,19 +543,23 @@
                     </div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/design.svg"
                                     alt="Your design"
+                                    height="50"
+                                    width="50"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Design</h4>
                                 <p class="process-p">
-                                    We'll sketch out an intial design for your
-                                    product. Not what you were looking for?
-                                    We'll redesign it to fit your ideas better,
-                                    <span class="highlight">for free.</span>
+                                    Your product's image and purpose, captured
+                                    beautifully through our expertise and your
+                                    ideas. We'll ensure your solution is
+                                    <span class="highlight"
+                                        >ready to empower you online.</span
+                                    >
                                 </p>
                             </div>
                         </div>
@@ -305,39 +568,45 @@
                 <div class="row" id="wyg-offset">
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/product.svg"
                                     alt="Your product"
+                                    height="50"
+                                    width="50"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Product</h4>
                                 <p class="process-p">
-                                    We will develop your solution: cooperating
-                                    with you every step of the way until we have
-                                    a product
-                                    <span class="highlight">you love!</span>
+                                    We will develop your solution informing you
+                                    <span class="highlight"
+                                        >every step of the way</span
+                                    >
+                                    to ensure we're crafting a product
+                                    <span class="highlight">you'll love.</span>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="row">
-                            <div class="col-2">
+                            <div class="col-2 p-sm-l-0">
                                 <img
                                     src="/assets/images/future.svg"
                                     alt="Your future"
+                                    height="50"
+                                    width="50"
                                 />
                             </div>
-                            <div class="col-10">
+                            <div class="col-10 p-sm-r-0">
                                 <h4 class="process-title">Your Future</h4>
                                 <p class="process-p">
                                     Retaining a relationship is crucial and no
                                     one knows the technical aspects of your
                                     product better than us. We will offer
                                     <span class="highlight"
-                                        >lifetime updates and support</span
+                                        >updates and support</span
                                     >
                                     for your finished solution.
                                 </p>
@@ -347,6 +616,7 @@
                 </div>
             </div>
         </div>
+        <<<<<<< HEAD
         <div
             class="aos-wrapper"
             data-aos="fade-up"
@@ -360,5 +630,6 @@
         <script>
             AOS.init();
         </script>
+        ======= {%include form.html%} {% include footer.html %} >>>>>>> main
     </body>
 </html>

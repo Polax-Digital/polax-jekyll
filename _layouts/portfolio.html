@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{{ page.title }} - Polax Digital</title>
-
-        <link rel="icon" href="/assets/images/favicon.png">
-
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Montserrat:wght@400;500;700;800&display=swap"
-            rel="stylesheet" />
-
-        <script src="https://kit.fontawesome.com/99905c1556.js" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="/assets/css/main.css" />
-        <link rel="stylesheet" href="/assets/css/bsg.css" />
+        {% include header.html %}
     </head>
     <body>
-        {% include navbar.html %}
+        {% include navbar.html %} {% include mobilenav.html %}
         <div id="hero">
             <div class="content-container">
                 <h1 id="pf-title">
-                    We've worked with these fantastic companies to provide innovative web-based solutions.
+                    We've worked with these fantastic companies to provide
+                    innovative web-based solutions.
                 </h1>
             </div>
         </div>
 
-        <div class="content-container" id="pf-content">
+        <div class="content-container">
             <div class="pf-wrapper">
                 <div class="row">
                     <div class="col-md-6 order-md-first">
                         <div class="pf-img-container" id="p1">
                             <picture class="d-flex justify-content-center">
-                                <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                <source type="image/png" srcset="/assets/images/portfolio/{{  page.p1-image }}.png">
-                                <img src="/assets/images/portfolio/{{  page.p1-image }}.png" class="pf-img" alt="Portfolio Image">
+                                <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p1-image }}.webp">
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/portfolio/{{  page.p1-image }}.png"
+                                />
+                                <img
+                                    src="/assets/images/portfolio/{{  page.p1-image }}.png"
+                                    class="pf-img"
+                                    alt="Portfolio Image"
+                                    height="500"
+                                    width="1000"
+                                />
                             </picture>
                         </div>
                     </div>
                     <div class="col-md-6 order-md-last">
                         <h2 class="pf-subtitle">{{ page.p1-title }}</h2>
                         <h2 class="pf-type">{{ page.p1-type }}</h2>
-                        <p class="pf-text">
-                            {{ page.p1-description }}
-                        </p>
+                        <p class="pf-text">{{ page.p1-description }}</p>
                         <div class="p-link-wrapper">
                             <a href="{{ page.p1-link }}">
                                 <p id="see-portfolio">SEE PROJECT</p>
-                                <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" />
+                                <img
+                                    src="/assets/images/arrow-right.svg"
+                                    alt="Arrow pointing right"
+                                    id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
+                                />
                             </a>
                         </div>
                     </div>
@@ -62,13 +61,17 @@
                     <div class="col-md-6 order-md-12">
                         <h2 class="pf-subtitle">{{ page.p2-title }}</h2>
                         <h2 class="pf-type">{{ page.p2-type }}</h2>
-                        <p class="pf-text">
-                            {{ page.p2-description }}
-                        </p>
+                        <p class="pf-text">{{ page.p2-description }}</p>
                         <div class="p-link-wrapper">
                             <a href="{{ page.p2-link }}">
                                 <p id="see-portfolio">SEE PROJECT</p>
-                                <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" />
+                                <img
+                                    src="/assets/images/arrow-right.svg"
+                                    alt="Arrow pointing right"
+                                    id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
+                                />
                             </a>
                         </div>
                     </div>
@@ -77,16 +80,36 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p2-image }}.png">
-                                        <img src="/assets/images/portfolio/{{  page.p2-image }}.png" class="pf-img" alt="Portfolio Image">
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p2-image }}.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p2-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p2-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                                 <div class="col pf-img-right">
-                                    <picture class="d-flex justify-content-start">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p2-image }}2.png">
-                                        <img src="/assets/images/portfolio/{{  page.p2-image }}2.png" class="pf-img" alt="Portfolio Image">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p2-image }}2.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p2-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p2-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                             </div>
@@ -102,18 +125,36 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p3-image }}.png">
-                                        <img src="/assets/images/portfolio/{{  page.p3-image }}.png" class="pf-img"
-                                            alt="Portfolio Image">
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p3-image }}.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p3-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p3-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                                 <div class="col pf-img-right">
-                                    <picture class="d-flex justify-content-start">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p3-image }}2.png">
-                                        <img src="/assets/images/portfolio/{{  page.p3-image }}2.png" class="pf-img"
-                                            alt="Portfolio Image">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p3-image }}2.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p3-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p3-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                             </div>
@@ -122,13 +163,17 @@
                     <div class="col-md-6 order-md-last">
                         <h2 class="pf-subtitle">{{ page.p3-title }}</h2>
                         <h2 class="pf-type">{{ page.p3-type }}</h2>
-                        <p class="pf-text">
-                            {{ page.p3-description }}
-                        </p>
+                        <p class="pf-text">{{ page.p3-description }}</p>
                         <div class="p-link-wrapper">
                             <a href="{{ page.p3-link }}">
                                 <p id="see-portfolio">SEE PROJECT</p>
-                                <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" />
+                                <img
+                                    src="/assets/images/arrow-right.svg"
+                                    alt="Arrow pointing right"
+                                    id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
+                                />
                             </a>
                         </div>
                     </div>
@@ -140,13 +185,17 @@
                     <div class="col-md-6">
                         <h2 class="pf-subtitle">{{ page.p4-title }}</h2>
                         <h2 class="pf-type">{{ page.p4-type }}</h2>
-                        <p class="pf-text">
-                            {{ page.p4-description }}
-                        </p>
+                        <p class="pf-text">{{ page.p4-description }}</p>
                         <div class="p-link-wrapper">
                             <a href="{{ page.p4-link }}">
                                 <p id="see-portfolio">SEE PROJECT</p>
-                                <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" />
+                                <img
+                                    src="/assets/images/arrow-right.svg"
+                                    alt="Arrow pointing right"
+                                    id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
+                                />
                             </a>
                         </div>
                     </div>
@@ -155,16 +204,36 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p4-image }}.png">
-                                        <img src="/assets/images/portfolio/{{  page.p4-image }}.png" class="pf-img" alt="Portfolio Image">
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p4-image }}.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p4-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p4-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="550"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                                 <div class="col pf-img-right">
-                                    <picture class="d-flex justify-content-start">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p4-image }}2.png">
-                                        <img src="/assets/images/portfolio/{{  page.p4-image }}2.png" class="pf-img" alt="Portfolio Image">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p4-image }}2.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p4-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p4-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                             </div>
@@ -180,18 +249,36 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p5-image }}.png">
-                                        <img src="/assets/images/portfolio/{{  page.p5-image }}.png" class="pf-img"
-                                            alt="Portfolio Image">
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p5-image }}.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p5-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p5-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                                 <div class="col pf-img-right">
-                                    <picture class="d-flex justify-content-start">
-                                        <!--<source type="image/webp" srcset="/assets/images/webp/dbs.webp">-->
-                                        <source type="image/png" srcset="/assets/images/portfolio/{{  page.p5-image }}2.png">
-                                        <img src="/assets/images/portfolio/{{  page.p5-image }}2.png" class="pf-img"
-                                            alt="Portfolio Image">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p5-image }}2.webp">
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p5-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p5-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
                                     </picture>
                                 </div>
                             </div>
@@ -200,13 +287,17 @@
                     <div class="col-md-6 order-md-last">
                         <h2 class="pf-subtitle">{{ page.p5-title }}</h2>
                         <h2 class="pf-type">{{ page.p5-type }}</h2>
-                        <p class="pf-text">
-                            {{ page.p5-description }}
-                        </p>
+                        <p class="pf-text">{{ page.p5-description }}</p>
                         <div class="p-link-wrapper">
                             <a href="{{ page.p5-link }}">
                                 <p id="see-portfolio">SEE PROJECT</p>
-                                <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" />
+                                <img
+                                    src="/assets/images/arrow-right.svg"
+                                    alt="Arrow pointing right"
+                                    id="portfolio-arrow"
+                                    height="25"
+                                    width="16"
+                                />
                             </a>
                         </div>
                     </div>

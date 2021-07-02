@@ -2,20 +2,42 @@
     <div class="content-container">
         <div class="nav-container">
             <div class="brand-container">
-                <img
-                    src="/assets/images/polax-icon.png"
-                    alt="Polax Digital icon
-                logo"
-                    height="30px"
-                />
+                <a href="/">
+                    <picture>
+                        <source type="image/webp" srcset="/assets/images/webp/polax-icon.webp" />
+                        <source type="image/png" srcset="/assets/images/polax-icon.png" />
+                        <img src="/assets/images/polax-icon.png" alt="Polax Digital icon logo" height="31" width="22" />
+                    </picture>
+                </a>
             </div>
             <div class="menu-container">
                 <ul class="nav-menu">
-                    <li class="nav-item">Home</li>
-                    <li class="nav-item">Portfolio</li>
-                    <li class="nav-item">Blog</li>
-                    <li class="nav-item">Contact</li>
+                    {% for nav in site.data.nav %}
+                    <li
+                        class="
+                            nav-item
+                            {%
+                            if
+                            nav.inturl
+                            ==
+                            page.url
+                            %}
+                            active
+                            {%
+                            endif
+                            %}
+                        "
+                    >
+                        <a href="{{nav.url}}">{{nav.text}}</a>
+                    </li>
+                    {% endfor %}
                 </ul>
+                <div class="menu-toggle">
+                    <label for="check" onclick="checkCheck()">
+                        <input type="checkbox" id="check" />
+                        <div class="hamburger"></div>
+                    </label>
+                </div>
             </div>
         </div>
     </div>
