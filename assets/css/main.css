@@ -181,6 +181,16 @@ label {
     padding: 0.5rem;
 }
 
+.inline-link {
+    border-bottom: solid var(--form-green) 2px;
+    transition: all 0.3s ease;
+}
+
+.inline-link:hover,
+.inline-link:focus-within {
+    border-bottom-color: var(--nav-hover);
+}
+
 input[type="checkbox"] {
     display: none;
 }
