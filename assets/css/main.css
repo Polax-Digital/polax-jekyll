@@ -227,7 +227,7 @@ nav {
     margin-top: 0.75rem;
 }
 
-.partner-wrapper > img {
+#partner-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -235,7 +235,7 @@ nav {
     transition: filter 0.3s;
 }
 
-.partner-wrapper > img:hover {
+#partner-logo:hover {
     filter: none;
 }
 
