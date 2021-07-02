@@ -3,26 +3,49 @@
     <head>
         <title>{{ page.title }} - Polax Digital</title>
         {% include header.html %}
+        <style type="text/css">
+            #contact-us {
+                margin-top: 0;
+            }
+        </style>
     </head>
     <body>
-        {% include navbar.html %}
+        {% include navbar.html %} {% include mobilenav.html %}
         <div class="content-container" id="contact-hero">
             <div class="row">
-                <div class="col-12 col-md-6">Picture Here</div>
+                <div class="col-12 col-md-6">
+                    <div class="lottie-container">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player
+                            src="https://assets8.lottiefiles.com/packages/lf20_mkhtggqx.json"
+                            background="transparent"
+                            speed="0.6"
+                            style="max-width: 650px; max-height: 650px"
+                            loop
+                            autoplay
+                        ></lottie-player>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6">
                     <div id="values-wrapper">
                         <p id="contact-about">ABOUT POLAX</p>
-                        <h2 class="subtitle" id="contact-values">Our Values</h2>
+                        <h2 class="subtitle" id="contact-values">Who We Are</h2>
                         <p id="contact-about-para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officiis, dolor placeat! Fugit iure blanditiis
-                            cupiditate assumenda unde illo. Aperiam vitae quasi,
-                            et magnam praesentium, libero accusantium odit ea
-                            magni consequuntur quo voluptas quam reprehenderit
-                            soluta doloremque vero perferendis architecto illum!
+                            We're a team with <b>one goal:</b> give your
+                            business the tools, advice and solutions to succeed
+                            in a digital world and futureproof your brand.<br />
+                            We're passionate about what we do and won't settle
+                            for disappointing results or low performance.<br /><br />
+                            We'd love to hear from you, so fill your details out
+                            below or contact us at
+                            <a
+                                href="mailto:sales@polax.co.uk"
+                                class="inline-link"
+                                >sales@polax.co.uk</a
+                            >
                         </p>
                         <a href="#form" id="contact-form-link">
-                            <p id="">Say hello</p>
+                            <p id="">Get in touch</p>
                             <img
                                 src="/assets/images/arrow-right.svg"
                                 alt="Arrow pointing right"

@@ -1,0 +1,19 @@
+<script>
+    function checkCheck() {
+        if (document.getElementById("check").checked) {
+            document.getElementById("transitioncheck").checked = true;
+        } else {
+            document.getElementById("transitioncheck").checked = false;
+        }
+    }
+</script>
+<input type="checkbox" id="transitioncheck" />
+<div class="mobile-nav" id="mobile-nav">
+    <ul class="mobile-nav-menu">
+        {% for nav in site.data.nav %}
+        <li class="nav-item {% if nav.inturl == page.url %} active {% endif %}">
+            <a href="{{nav.url}}">{{nav.text}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,9 +1,10 @@
 ---
 title: Home | Polax Digital
 layout: home
+metadesc: Empowering businesses online through websites, web applications and other digital solutions.
 
 title: Empowering businesses online
-tagline: We work with your company to design, develop and deliver bespoke websites, applications and digital products to ensure your business thrives online. <span class="tagline-orange">More time to put your feet up.</span>
+tagline: We work with you to design, develop and deliver bespoke websites, applications and digital products to ensure your business thrives online.<br><span class="tagline-orange">More time to put your feet up.</span>
 
 p1-title: Contentfnnl
 p1-type: Web Application <br> Web Development
