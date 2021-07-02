@@ -6,7 +6,7 @@
     </head>
     <body>
         {% include navbar.html %} {% include mobilenav.html %}
-        <div id="hero">
+        <div id="hero" data-aos="fade-up" data-aos-duration="1000">
             <div class="content-container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-5">
@@ -34,7 +34,13 @@
                 </div>
             </div>
         </div>
-        <div id="what-we-do" class="section">
+        <div
+            id="what-we-do"
+            class="section"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+        >
             <div class="content-container">
                 <div class="row">
                     <div class="col-12">
@@ -140,7 +146,13 @@
                 </div>
             </div>
         </div>
-        <div id="our-portfolio" class="section">
+        <div
+            id="our-portfolio"
+            class="section"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+        >
             <div class="content-container">
                 <div class="row">
                     <div class="col-12 col-md-6">
@@ -152,7 +164,10 @@
                     <div class="col-12 col-md-6 pf-landing">
                         <div class="pf-img-container" id="p1">
                             <picture class="d-flex justify-content-center">
-                                <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p1-image }}.webp">
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/portfolio/{{ page.p1-image }}.webp"
+                                />
                                 <source
                                     type="image/png"
                                     srcset="/assets/images/portfolio/{{  page.p1-image }}.png"
@@ -174,7 +189,10 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p2-image }}.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p2-image }}.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p2-image }}.png"
@@ -192,7 +210,10 @@
                                     <picture
                                         class="d-flex justify-content-start"
                                     >
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p2-image }}2.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p2-image }}2.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p2-image }}2.png"
@@ -216,7 +237,10 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p3-image }}.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p3-image }}.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p3-image }}.png"
@@ -234,7 +258,10 @@
                                     <picture
                                         class="d-flex justify-content-start"
                                     >
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p3-image }}2.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p3-image }}2.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p3-image }}2.png"
@@ -258,7 +285,10 @@
                             <div class="row">
                                 <div class="col pf-img-left">
                                     <picture class="d-flex justify-content-end">
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p4-image }}.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p4-image }}.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p4-image }}.png"
@@ -276,7 +306,10 @@
                                     <picture
                                         class="d-flex justify-content-start"
                                     >
-                                        <source type="image/webp" srcset="/assets/images/webp/portfolio/{{ page.p4-image }}2.webp">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p4-image }}2.webp"
+                                        />
                                         <source
                                             type="image/png"
                                             srcset="/assets/images/portfolio/{{  page.p4-image }}2.png"
@@ -314,7 +347,13 @@
                 </div>
             </div>
         </div>
-        <div id="our-partners" class="section">
+        <div
+            id="our-partners"
+            class="section"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+        >
             <div class="content-container">
                 <div class="row">
                     <div class="col-12 partner-tags">
@@ -330,9 +369,23 @@
                     <div class="col-12">
                         <div class="partner-wrapper">
                             <picture>
-                                <source type="image/webp" srcset="/assets/images/webp/partners/linode.webp">
-                                <source type="image/png" srcset="/assets/images/linode.png" />
-                                <img src="/assets/images/linode.png" alt="Linode Partnership Logo" height="65" width="166" id="partner-logo" />
+                                <source
+                                    type="image/webp"
+                                    srcset="
+                                        /assets/images/webp/partners/linode.webp
+                                    "
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/linode.png"
+                                />
+                                <img
+                                    src="/assets/images/linode.png"
+                                    alt="Linode Partnership Logo"
+                                    height="65"
+                                    width="166"
+                                    id="partner-logo"
+                                />
                             </picture>
                         </div>
                     </div>
@@ -340,7 +393,13 @@
             </div>
         </div>
 
-        <div id="happy-clients" class="section">
+        <div
+            id="happy-clients"
+            class="section"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+        >
             <div class="content-container">
                 <div class="row">
                     <div class="col-12 col-md-6 client-text-wrapper">
@@ -351,9 +410,23 @@
                         <div class="pl-wrapper">
                             <div class="testimonial-box-desktop box-margin">
                                 <picture>
-                                    <source type="image/webp" srcset="/assets/images/webp/contentfnnl.webp">
-                                    <source type="image/png" srcset="/assets/images/contentfnnl.png" />
-                                    <img src="/assets/images/contentfnnl.png" alt="Contentfnnl Logo" width="260" height="70" class="test-img" />
+                                    <source
+                                        type="image/webp"
+                                        srcset="
+                                            /assets/images/webp/contentfnnl.webp
+                                        "
+                                    />
+                                    <source
+                                        type="image/png"
+                                        srcset="/assets/images/contentfnnl.png"
+                                    />
+                                    <img
+                                        src="/assets/images/contentfnnl.png"
+                                        alt="Contentfnnl Logo"
+                                        width="260"
+                                        height="70"
+                                        class="test-img"
+                                    />
                                 </picture>
                                 <p class="testimonial-paragraph-desktop">
                                     They've been nothing but professional and
@@ -372,9 +445,21 @@
                     <div class="col-12 col-md-6" id="testimonial-offset">
                         <div class="testimonial-box-desktop">
                             <picture>
-                                <source type="image/webp" srcset="/assets/images/webp/cardanfire.webp">
-                                <source type="image/png" srcset="/assets/images/cardanfire.png" />
-                                <img src="/assets/images/webp/cardanfire.png" alt="Cardan Fire Logo" width="260" height="50" class="test-img" />
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/cardanfire.webp"
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/cardanfire.png"
+                                />
+                                <img
+                                    src="/assets/images/webp/cardanfire.png"
+                                    alt="Cardan Fire Logo"
+                                    width="260"
+                                    height="50"
+                                    class="test-img"
+                                />
                             </picture>
                             <p class="testimonial-paragraph-desktop">
                                 Very professional, attentive and
@@ -388,9 +473,21 @@
                         </div>
                         <div class="testimonial-box-desktop box-margin">
                             <picture>
-                                <source type="image/webp" srcset="/assets/images/webp/dbs.webp">
-                                <source type="image/png" srcset="/assets/images/dbs.png" />
-                                <img src="/assets/images/webp/dbs.png" alt="DBS Logo" width="120" height="60" class="test-img" />
+                                <source
+                                    type="image/webp"
+                                    srcset="/assets/images/webp/dbs.webp"
+                                />
+                                <source
+                                    type="image/png"
+                                    srcset="/assets/images/dbs.png"
+                                />
+                                <img
+                                    src="/assets/images/webp/dbs.png"
+                                    alt="DBS Logo"
+                                    width="120"
+                                    height="60"
+                                    class="test-img"
+                                />
                             </picture>
                             <p class="testimonial-paragraph-desktop">
                                 Great service and highly recommended team of
@@ -407,7 +504,13 @@
             </div>
         </div>
 
-        <div id="what-you-get" class="section">
+        <div
+            id="what-you-get"
+            class="section"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+        >
             <div class="content-container">
                 <div class="row">
                     <div class="col-12">
@@ -513,6 +616,18 @@
                 </div>
             </div>
         </div>
-        {%include form.html%} {% include footer.html %}
+        <div
+            class="aos-wrapper"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+        >
+            {% include form.html %}
+        </div>
+        {% include footer.html %}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
