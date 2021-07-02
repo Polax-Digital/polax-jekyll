@@ -412,6 +412,7 @@ footer {
 .footer-logo {
     width: 15vw;
     min-width: 150px;
+    height: auto;
 }
 
 .footer-menu-container {
