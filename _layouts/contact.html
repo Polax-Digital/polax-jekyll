@@ -3,12 +3,29 @@
     <head>
         <title>{{ page.title }} - Polax Digital</title>
         {% include header.html %}
+        <style type="text/css">
+            #contact-us {
+                margin-top: 0;
+            }
+        </style>
     </head>
     <body>
         {% include navbar.html %} {% include mobilenav.html %}
         <div class="content-container" id="contact-hero">
             <div class="row">
-                <div class="col-12 col-md-6">Picture Here</div>
+                <div class="col-12 col-md-6">
+                    <div class="lottie-container">
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player
+                            src="https://assets8.lottiefiles.com/packages/lf20_mkhtggqx.json"
+                            background="transparent"
+                            speed="0.6"
+                            style="max-width: 600px; max-height: 600px"
+                            loop
+                            autoplay
+                        ></lottie-player>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6">
                     <div id="values-wrapper">
                         <p id="contact-about">ABOUT POLAX</p>
