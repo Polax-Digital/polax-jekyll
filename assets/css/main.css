@@ -338,6 +338,7 @@ nav {
 
 .pf-img {
     width: 18vw;
+    height: auto;
     box-shadow: 3px 2px 30px 12px rgba(0, 0, 0, 0.2);
 }
 
