@@ -113,6 +113,11 @@ nav {
     color: var(--nav-hover);
 }
 
+.nav-item:hover > a > img {
+    filter: invert(55%) sepia(63%) saturate(4490%) hue-rotate(1deg)
+        brightness(104%) contrast(103%);
+}
+
 #nav-img {
     z-index: 2;
     display: block;
