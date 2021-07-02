@@ -8,6 +8,10 @@
     --form-green: #6cd899;
 }
 
+#blog-row-temp {
+    min-height: 70vh;
+}
+
 html {
     max-width: 100vw;
     scroll-behavior: smooth;
@@ -179,6 +183,16 @@ label {
 .mobile-nav-menu > li {
     font-size: 1.5rem;
     padding: 0.5rem;
+}
+
+.inline-link {
+    border-bottom: solid var(--form-green) 2px;
+    transition: all 0.3s ease;
+}
+
+.inline-link:hover,
+.inline-link:focus-within {
+    border-bottom-color: var(--nav-hover);
 }
 
 input[type="checkbox"] {
