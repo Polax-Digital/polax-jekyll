@@ -255,6 +255,7 @@ input[type="checkbox"]:checked ~ .hamburger {
 .lottie-container {
     display: grid;
     place-items: center;
+    min-height: 350px;
 }
 
 .lottie-container > lottie-player {
