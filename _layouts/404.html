@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{page.title}} - Polax Digital</title>
+  {% include header.html %}
+</head>
+
+<body>
+  {% include navbar.html %} {% include mobilenav.html %}
+  <div class="content-container" id="thanks-container">
+    <h1 id="home-title">404 - Page not found</h1>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_giokgqls.json" background="transparent"
+      speed="0.4" style="max-width: 500px; max-height: 500px" loop autoplay></lottie-player>
+    <p id="thanks-text">
+      Oops! It looks like this page doesn't exist.
+    </p>
+    <a href="/"> <button id="go-home">Back to our site</button></a>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>
