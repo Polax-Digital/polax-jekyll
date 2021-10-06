@@ -754,6 +754,24 @@ textarea::placeholder {
     background: rgba(255, 214, 180, 0.8);
 }
 
+#blog-posts {
+    margin-top: 8rem;
+}
+
+.post-img {
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.blog-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .text-center-desktop {
