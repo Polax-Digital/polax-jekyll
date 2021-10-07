@@ -798,9 +798,16 @@ textarea::placeholder {
     min-height: 21rem;
 }
 
-.blog-preview-container > p {
+.blog-preview-container > p.post-desc {
     color: #5D5F6A;
     margin-top: 0rem;
+}
+
+.blog-preview-container > p.post-cat {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .blog-preview-title {

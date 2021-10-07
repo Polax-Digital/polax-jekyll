@@ -9,6 +9,8 @@ permalink: /blog/why-you-need-a-website-for-your-business
 post-image: /assets/images/blog/7-reasons-your-business-needs-a-website.jpg
 post-img-alt: "Hello World"
 
+category: "Business Tips"
+
 author: Daniel Granger
 ---
 
