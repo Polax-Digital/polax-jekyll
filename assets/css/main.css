@@ -794,11 +794,16 @@ textarea::placeholder {
 }
 .blog-preview-container {
     border: solid red 2px;
-    width: 23rem;
+    min-width: 20rem;
+    max-width: 23rem;
     min-height: 21rem;
 }
 .blog-preview-img {
     max-width: 100%;
+}
+
+.blog-post-row {
+    margin-top: 2rem;
 }
 
 /* Media Queries */
@@ -904,6 +909,19 @@ textarea::placeholder {
 
     .p-sm-r-0 {
         padding-right: 0 !important;
+    }
+
+    .blog-preview-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #blog-posts {
+        margin-top: 2rem;
+    }
+
+    .blog-post-row {
+        margin-top: 0rem;
     }
 }
 
