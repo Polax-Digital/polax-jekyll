@@ -9,6 +9,8 @@ permalink: /blog/why-you-need-a-website-for-your-business
 post-image: /assets/images/blog/7-reasons-your-business-needs-a-website.jpg
 post-img-alt: "Group of developers making a website"
 
+category: "Business Tips"
+
 author: Daniel Granger
 ---
 
