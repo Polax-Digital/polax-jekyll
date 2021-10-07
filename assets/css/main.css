@@ -794,7 +794,7 @@ textarea::placeholder {
 }
 .blog-preview-container {
     border: solid red 2px;
-    min-width: 20rem;
+    min-width: 15rem;
     max-width: 23rem;
     min-height: 21rem;
 }
