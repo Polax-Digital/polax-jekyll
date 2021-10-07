@@ -10,7 +10,6 @@ post-image: /assets/images/blog/7-reasons-your-business-needs-a-website.jpg
 post-img-alt: "Hello World"
 
 author: Daniel Granger
-author-about:
 ---
 
 You probably already know the importance of social media presence for a business in today's connected world and how it can impact your growth and sales, but what about a website? Does it have the same impact as a curated Instagram feed for emerging businesses?
