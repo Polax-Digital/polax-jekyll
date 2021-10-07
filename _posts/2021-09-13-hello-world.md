@@ -12,7 +12,7 @@ post-img-alt: "Hello World"
 author: Daniel Granger
 ---
 
-You probably already know the importance of social media presence for a business in today's connected world and how it can impact your growth and sales, but what about a website? Does it have the same impact as a curated Instagram feed for emerging businesses?
+You probably already know the importance of a social media presence for a business in today's connected world and how it can impact your growth and sales, but what about a website? Does it have the same impact as a curated Instagram feed for emerging businesses?
 
 Today we want to give you and other entrepreneurs 7 reasons why it's so important to have a website to build a long term successful business and how it will help you automate some tedious tasks.
 

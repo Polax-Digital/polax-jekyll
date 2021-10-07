@@ -16,7 +16,13 @@
             <div class="row" id="blog-posts">
                 {% for post in site.posts %}
                 <div class="col-12 col-md-4">
-                    
+                    <a href="{{post.permalink}}">
+                        <div class="blog-preview-container">
+                            <img src="{{post.post-image}}" alt="{{post.post-img-alt}}" class="blog-preview-img">
+                            <h2 class="blog-preview-title">{{post.title}}</h2>
+                            <p>{{post.description}}</p>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

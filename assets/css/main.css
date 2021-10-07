@@ -759,6 +759,9 @@ textarea::placeholder {
 
 #blog-posts {
     margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 
 .post-img {
@@ -788,6 +791,14 @@ textarea::placeholder {
 .blog-container p, .blog-container li, .blog-container ul, .blog-container ol{
 		font-size: 1.2rem;
 		line-height: 1.5;
+}
+.blog-preview-container {
+    border: solid red 2px;
+    width: 23rem;
+    min-height: 21rem;
+}
+.blog-preview-img {
+    max-width: 100%;
 }
 
 /* Media Queries */
