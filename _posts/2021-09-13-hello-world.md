@@ -3,11 +3,11 @@ layout: post
 
 title: "7 Reasons why you need a website to build a long term successful business"
 date: 2021-10-07
-description: "Here is a description for OG tags, etc."
+description: "Today we want to give you and other entrepreneurs 7 reasons why it's so important to have a website to build a long term successful business and how it will help you automate some tedious tasks."
 
 permalink: /blog/why-you-need-a-website-for-your-business
 post-image: /assets/images/blog/7-reasons-your-business-needs-a-website.jpg
-post-img-alt: "Hello World"
+post-img-alt: "Group of developers making a website"
 
 author: Daniel Granger
 ---
