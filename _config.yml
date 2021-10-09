@@ -1,4 +1,5 @@
 name: Polax Digital's Website
 url: "https://polax.co.uk"
+permalink: /blog/:title
 plugins:
     - jekyll-sitemap

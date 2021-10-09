@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{page.title}} - Polax Digital</title>
+        {%include header.html %}
+        
+        <meta property="og:title" content="{{page.title}}">
+        <meta property="og:site_name" content="Polax Digital">
+        <meta property="og:url" content="https://polax.co.uk{{page.permalink}}">
+        <meta property="og:description" content="{{page.description}}">
+        <meta property="og:type" content="article">
+        <meta property="og:image" content="https://polax.co.uk{{page.post-image}}">
+
+        <meta name="author" content="Polax Digital">
+        
+        <!-- MailerLite Universal -->
+        <script>
+            (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+            var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+            f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+            var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+            _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+            
+            var ml_account = ml('accounts', '3392662', 'h3z5p3b4x4', 'load');
+        </script>
+        <!-- End MailerLite Universal -->
+    
+
+    </head>
+    <body>
+        {%include navbar.html %}{%include mobilenav.html %}
+        <div class="content-container">
+            <div class="row">
+                <div class="col-12 mt-3 mb-5">
+                    <h1 id="home-title" class="text-center">{{page.title}}</h1>
+                </div>
+            </div>
+            <!-- <div class="row">
+                <div class="col-12">
+                    <img class="post-img" src="{{page.post-image}}" alt="{{page.post-img-alt}}">
+                </div>
+            </div> -->
+            <div class="row blog-post-row">
+                <div class="col-12">
+                    <div class="blog-container">{{page.content}}</div>
+                </div>
+            </div>
+        </div>
+        {%include footer.html %}
+    </body>
+</html>
