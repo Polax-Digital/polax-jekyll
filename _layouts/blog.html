@@ -2,40 +2,34 @@
 <html lang="en">
     <head>
         <title>Blog - Polax Digital</title>
-        {%include header.html%}
+        {%include header.html %}
     </head>
     <body>
-        {%include navbar.html%}{%include mobilenav.html%}
+        {%include navbar.html%}{%include mobilenav.html %}
         <div class="content-container">
-            <div class="row" id="blog-row-temp">
-                <div class="col-12 col-md-6">
-                    <h1 id="home-title">Blog</h1>
-                    <p class="tagline">Woah, there's nothing here.</p>
-                    <p class="tagline">
-                        We're working hard to produce the best content and
-                        insights into the digital world. We hope to have
-                        something to offer soon.
-                    </p>
-                    <p class="tagline">
-                        In the meantime, have a look at the brands we've worked with in the past to help elevate their presence online.
-                    </p>
-                    <div class="p-link-wrapper">
-                        <a href="/portfolio">
-                            <p id="see-portfolio">See portfolio</p>
-                            <img src="/assets/images/arrow-right.svg" alt="Arrow pointing right" id="portfolio-arrow" height="25"
-                                width="16" />
-                        </a>
-                    </div>
+            <div class="row">
+                <div class="col-12 col-lg-10">
+                    <h2 id="blog-title">Forget slow and complicated tech on your website. Empower your business with our tips and guides.</h2>
                 </div>
-                <div class="col-12 col-md-6 pt-3">
-                    <div class="lottie-container">
-                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-                        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_ekwxfie2.json" background="transparent"
-                            speed="0.7" style="max-width: 700px; max-height: 700px;" loop autoplay></lottie-player>
-                    </div>
+                <div class="col-lg-5"></div>
+            </div>
+            <div class="row" id="blog-posts">
+                {% for post in site.posts %}
+                <div class="col-12 col-md-4">
+                    <a href="{{post.permalink}}">
+                        <div class="blog-preview-container">
+                            <img src="{{post.post-image}}" alt="{{post.post-img-alt}}" class="blog-preview-img">
+                            <p class="post-cat">{{post.category}}</p>
+                            <h2 class="blog-preview-title">{{post.title}}</h2>
+                            <p class="post-desc">{{post.description}}</p>
+                        </div>
+                    </a>
                 </div>
+                {% endfor %}
             </div>
         </div>
-        {%include footer.html%}
+        {%include footer.html %}
     </body>
 </html>
+
+<li><a href="{{post.url}}">{{post.title}}</a></li>
