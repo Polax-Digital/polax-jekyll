@@ -823,6 +823,10 @@ textarea::placeholder {
     margin-bottom: 0.5rem;
 }
 
+.blog-preview-title:hover {
+    color: var(--polax-orange);
+}
+
 .blog-preview-img {
     max-width: 100%;
     border-radius: 8px;
