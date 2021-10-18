@@ -2,7 +2,7 @@
 layout: post
 
 title: "What is the process of designing a custom business website"
-date: 2021-10-13
+date: 2021-10-15
 description: "What are the steps to take to design a small business website? Is it an easy or difficult process to create a web page?"
 
 permalink: /blog/process-of-designing-a-website
