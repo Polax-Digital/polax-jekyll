@@ -6,8 +6,8 @@ date: 2021-10-18
 description: "A lack of proper search engine optimization (SEO) is one of the most common problems for emerging businesses. Which business doesn’t want to appear on the first page of Google results?"
 
 permalink: /blog/tips-rank-better-google
-post-image: /assets/images/blog/tips-rank-better-google.jpeg
-post-img-alt: "People designing a website"
+post-image: /assets/images/blog/tips-rank-better-google.jpg
+post-img-alt: "Google ranking"
 
 category: "Business Tips"
 
