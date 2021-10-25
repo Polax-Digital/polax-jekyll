@@ -27,7 +27,7 @@ When you think about [building a website](https://polax.co.uk/blog/why-you-need-
 
 A content strategy it’s created so your potential customers know if what you are selling is what they need. You have to understand that most people that come to your website do so with a problem they are looking to solve, and it’s your job to find how to help them.
 
-Because of that, no matter your niche, we -99% of the time- always recommend adding a blog to your website, here’s why:
+Because of that, no matter your niche, we (99% of the time) always recommend adding a blog to your website, here’s why:
 
 A website is no longer enough to rank organically on search engines like Google and compete with similar businesses. Understanding what your audience needs, what they search on Google, and creating articles with those keywords will not only help them, but also position you for success.
 

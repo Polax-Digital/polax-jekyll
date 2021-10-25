@@ -35,6 +35,6 @@ Nobody wants to see a typo on the home page of their online business, right? The
 
 Our website administration includes copywriting (adding blog posts, events, and news) to improve the ranking of your site and maintaining the design to keep your brand fresh. You can let us know if your form needs to be updated or add a new one.
 
-All Polax clients can take advantage of our website maintenance service. Our team has decades of experience managing custom and WordPress sites, and we take pride in keeping your website secure, fast, and up-to-date.
+All Polax clients can take advantage of our website maintenance service. Our team has years of experience managing custom and WordPress sites, and we take pride in keeping your website secure, fast, and up-to-date.
 
 They also include security updates, speed tests, functionality tests, tweaks and fixes, and responsive tests and fixes. If that’s something you would like for your business, feel free to [contact us](https://polax.co.uk/contact).
