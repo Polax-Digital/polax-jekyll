@@ -45,7 +45,7 @@ Due to this we recommend you only use the hamburger menu in the mobile version a
 
 A good practice to define the flow of your navigation menu is to make the user find your content in no more than 3 clicks.
 
-There are a couple of times when this rule don’t apply, e-Commerce benign one of those, because you have to add a cart, checkout, confirmation page…
+There are cases when this rule does not apply, e-Commerce being one of those due to processes that involve a cart, because you have to add a cart, checkout, confirmation page…
 
 Here’s an illustrated example of the 3 levels of depth by us:
 
