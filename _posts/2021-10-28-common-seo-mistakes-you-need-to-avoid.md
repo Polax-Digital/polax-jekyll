@@ -17,7 +17,7 @@ author: Daniel Granger
 
 In order to review the most commonly made SEO mistakes on new business websites, it is important to understand all factors that influence the [positioning](https://polax.co.uk/blog/tips-rank-better-google) of our pages.
 
-It would be nice if Google just emailed you with the problems you need to fix, but they  are not that kind, so you need to check everything yourself or using external tools.
+It would be nice if Google just emailed you with the problems you need to fix, but they are not that kind, so you need to check everything yourself or using external tools.
 
 ![Marketers working on SEO.png](/assets/images/blog/common-seo-mistakes-you-need-to-avoid.jpg)
 
