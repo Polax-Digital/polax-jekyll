@@ -2,7 +2,7 @@
 layout: post
 
 title: "Why bother with website maintenance and management?"
-date: 2021-10-18
+date: 2021-10-25
 description: "A lack of proper search engine optimization (SEO) is one of the most common problems for emerging businesses. Which business doesn’t want to appear on the first page of Google results?"
 
 permalink: /blog/website-maintenance-and-management
