@@ -53,8 +53,8 @@ In 2020, Asos, a fashion wholesale company that sells clothes through its online
 
 There is no doubt that it is difficult to reach the level of an eCommerce company like Asos, but we will give you some tips to get you started. Read on!
 
-1. It pays to be real with TikTok: Unlike Instagram, it rewards authenticity. The less you change what you post, the better you'll fit into the platform's ecosystem. Stop using large cameras and start recording funny videos with your mobile device.
-2. Using TikTok allows you to tell your story in a more natural and direct way. It will allow you to create a stronger connection with your customers and increase brand recognition.
+1. It pays to be real with TikTok: Unlike Instagram, **it rewards authenticity**. The less you change what you post, the better you'll fit into the platform's ecosystem. Stop using large cameras and start recording funny videos with your mobile device.
+2. Using TikTok allows you to tell your story in a more natural and direct way. It will allow you to create a **stronger connection** with your customers and increase brand recognition.
 3. Show the backstage of your business: loyal customers are often very curious about what goes on behind the scenes. Some people find it quite interesting to see the hidden side of your company.
 4. Engage influencers: just like on other social platforms, there are also influencers on TikTok. Your profile can be greatly enhanced by collaborating with a celebrity on the platform with millions of followers.
-5. Launch creative challenges with your brand name: challenges are the most successful content on this social network. You can position a curious challenge with a hashtag that contains the name of your store or your business, which can go viral and generate millions of views for your profile.
+5. Launch creative challenges with your brand name: challenges are the most successful content on this social network. You can position a curious challenge with a hashtag that contains the name of your store or your business, which can go viral and **generate millions of views for your profile**.
