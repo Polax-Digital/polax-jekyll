@@ -798,6 +798,7 @@ textarea::placeholder {
 .blog-container p, .blog-container li, .blog-container ul, .blog-container ol{
 		font-size: 1.2rem;
 		line-height: 1.5;
+		margin-bottom: .5rem;
 }
 .blog-preview-container {
     min-width: 15rem;
