@@ -45,8 +45,6 @@ Before you start downloading images, here are some tips to improve your results 
 
 Now that we know which images to use and how to get the most out of them, let’s get into the websites that we recommend to find free stock photos for your business.
 
-**LIST OF SITES HERE, every one with a picture of the landing page and small description**
-
 ### Canva
 
 Not only they offer a fantastic tool for your business graphic needs, [Canva](https://www.canva.com/photos/free/) also have free and paid stock photos, videos, music and much more.
@@ -57,13 +55,13 @@ Not only they offer a fantastic tool for your business graphic needs, [Canva](ht
 
 Like their website says: [Pexels](https://www.pexels.com/) offers Stunning free images & royalty-free stock.
 
-![pexels](/assets/images/blog/pexels.png)
+![pexels](/assets/images/blog/pexels.jpg)
 
 ### Unsplash
 
 One of the biggest sites out there to look for new royalty-free stock images. Even big companies use [Unsplash](https://unsplash.com/) to upload their product images there for people to use.
 
-![unsplash](/assets/images/blog/unsplash.png)
+![unsplash](/assets/images/blog/unsplash.jpg)
 
 ### Burst
 
