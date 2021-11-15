@@ -1,13 +1,13 @@
 ---
 layout: post
 
-title: "5 Tips on design and SEO to rank better on Google"
-date: 2021-10-21
-description: "A lack of proper search engine optimization (SEO) is one of the most common problems for emerging businesses. Which business doesn’t want to appear on the first page of Google results?"
+title: "Benefits of using WhatsApp Business for your business"
+date: 2021-11-15
+description: "In addition to being one of the most popular mobile applications, WhatsApp is also the second largest social network in the world. Despite its enormous popularity, they want to go one step further and become the corporate communication channel par excellence."
 
 permalink: /blog/benefits-of-whatsapp-business-for-your-company
 post-image: /assets/images/blog/benefits-of-whatsapp-business-for-your-company.jpg
-post-img-alt: "Google ranking"
+post-img-alt: "Business owner using WhatsApp Business"
 
 category: "Business Tips"
 
