@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "Benefits of using WhatsApp Business for your business"
+title: "Benefits of using WhatsApp Business for your company"
 date: 2021-11-15
 description: "In addition to being one of the most popular mobile applications, WhatsApp is also the second largest social network in the world. Despite its enormous popularity, they want to go one step further and become the corporate communication channel par excellence."
 
