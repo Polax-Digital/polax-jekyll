@@ -15,7 +15,7 @@ author: Daniel Granger
 ---
 
 
-In addition to being one of the most popular mobile applications, WhatsApp is also the second largest social network in the world. Despite its enormous popularity, they want to go one step further and become the corporate communication channel par excellence.
+In addition to being one of the most popular [mobile applications](https://polax.co.uk/blog/apps-every-business-needs), WhatsApp is also the second largest social network in the world. Despite its enormous popularity, they want to go one step further and become the corporate communication channel par excellence.
 
 Thus, Meta created WhatsApp Business, a tool that facilitates day-to-day business and enables direct and fluid communication with consumers.
 
@@ -27,7 +27,7 @@ Which benefits does WhatsApp Business offer your business?
 
 Your business profile will help you project a professional image.
 
-Add your company's name, address, and description, as well as your website and email address. Thus, consumers can immediately identify who they are talking to or who they are sending messages to.
+Add your company's name, address, and description, as well as [your website](https://polax.co.uk/blog/why-you-need-a-website-for-your-business) and email address. Thus, consumers can immediately identify who they are talking to or who they are sending messages to.
 
 You can also share different content in a professional tone, which can help you gain the trust of users and convert them into clients.
 
@@ -39,13 +39,13 @@ Among the benefits of WhatsApp Business is the ease and speed of exchanging info
 
 The average email response time is 90 minutes, but the WhatsApp response time is just 90 seconds, according to Harvard Business Review.
 
-Near-instantaneous responses, or the ability to engage in conversation in real time, drastically enhance communication and increase conversions.
+Near-instantaneous responses, or the ability to engage in conversation in real time, drastically enhance communication and [increase conversions](https://polax.co.uk/blog/tiktok-for-ecommerce).
 
 Additionally, you can better manage incidents, solve problems, and improve customer satisfaction.
 
 ## Secure your communications
 
-Especially if you work on the Internet, data security should be a priority for your business.
+Especially if you work on the Internet, [data security](https://polax.co.uk/blog/website-maintenance-and-management) should be a priority for your business.
 
 WhatsApp Business offers a very secure encryption system that protects sensitive information as one of its benefits.
 
