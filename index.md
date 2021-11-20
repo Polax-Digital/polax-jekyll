@@ -3,8 +3,8 @@ title: Home | Polax Digital
 layout: home
 metadesc: Empowering businesses online through websites, web applications and other digital solutions.
 
-title: Empowering businesses online
-tagline: We work with you to design, develop and deliver bespoke websites, applications and digital products to ensure your business thrives online.<br><span class="tagline-orange">More time to put your feet up.</span>
+title: Simple tech to increase your sales
+tagline: Enhance and empower your business with a beautiful website or application that is easy to use for you and your customers. Learn how to sell with our step-by-step plan
 
 p1-title: Contentfnnl
 p1-type: Web Application <br> Web Development

@@ -24,6 +24,13 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
 h1 {
     font-family: "Della Respira", serif;
     font-weight: 400;
@@ -664,7 +671,7 @@ textarea::placeholder {
     font-size: 1rem;
 }
 
-#form-submit {
+.form-submit {
     width: 6rem;
     font-weight: 700;
     color: var(--polax-orange);
@@ -672,8 +679,24 @@ textarea::placeholder {
     transition: background 0.2s ease-in-out;
 }
 
-#form-submit:hover,
-#form-submit:focus-within {
+button.form-submit {
+    width: unset;
+    min-width: 6rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+    color: var(--polax-orange);
+    background: var(--orange-bgc);
+    transition: background 0.2s ease-in-out;
+}
+
+button.form-submit:hover,
+button.form-submit:focus-within {
+    cursor: pointer;
+    background: rgba(255, 214, 180, 0.8);
+}
+
+.form-submit:hover,
+.form-submit:focus-within {
     cursor: pointer;
     background: rgba(255, 214, 180, 0.8);
 }
