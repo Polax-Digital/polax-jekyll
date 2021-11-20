@@ -1,7 +1,7 @@
 ---
-title: Home | Polax Digital
+title: Simple tech to increase your sales | Polax Digital
 layout: home
-metadesc: Empowering businesses online through websites, web applications and other digital solutions.
+metadesc: Enhance and empower your business with a beautiful website or application that is easy to use for you and your customers. Learn how to sell with our step-by-step plan
 
 title: Simple tech to increase your sales
 tagline: Enhance and empower your business with a beautiful website or application that is easy to use for you and your customers. Learn how to sell with our step-by-step plan
