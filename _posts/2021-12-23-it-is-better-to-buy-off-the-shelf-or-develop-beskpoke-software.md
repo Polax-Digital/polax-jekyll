@@ -2,7 +2,7 @@
 layout: post
 
 title: "Is it better to buy off-the-shelf or develop bespoke software?"
-date: 2021-12-22
+date: 2021-12-23
 description: "At some point, every company faces the dilemma of whether to buy or develop custom software. The answer varies depending on the stage of business the company is in and the budget available for investment."
 
 permalink: /blog/it-is-better-to-buy-off-the-shelf-or-develop-beskpoke-software
