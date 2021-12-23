@@ -3,7 +3,7 @@ layout: post
 
 title: "Why companies should invest in technology?"
 date: 2021-12-22
-description: "Did you know that small influencers are usually better if you have a small budget for marketing because their engagement rate is higher than bigger names? Today we talk about micro and nano influencers and how they can help your emerging business"
+description: "Technology today is a great resource to help companies improve and grow. Recognizing its importance and how to invest in it appropriately, the moment and the objective it represents for the company are of utmost importance."
 
 permalink: /blog/why-companies-should-invest-in-technology
 post-image: /assets/images/blog/why-companies-should-invest-in-technology.jpg
