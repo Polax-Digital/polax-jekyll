@@ -55,8 +55,4 @@ It is vital to understand the fact that all companies are different. It is preci
 
 Generic software solutions remove the uniqueness of each business, so it is necessary to adapt the business to the software and not the other way around.
 
-It is better to make a good initial investment and have
-
-[good lasting results](https://polax.co.uk/portfolio)
-
-over time than to carry constant expenses that are not very scalable and not very beneficial to business growth.
+It is better to make a good initial investment and have [good lasting results](https://polax.co.uk/portfolio) over time than to carry constant expenses that are not very scalable and not very beneficial to business growth.
