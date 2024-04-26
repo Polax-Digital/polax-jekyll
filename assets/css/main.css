@@ -336,8 +336,12 @@ input[type="checkbox"]:checked ~ .hamburger {
 
 .service-wrapper {
     margin-bottom: 5vh;
+    transition: scale 0.4s ease;
 }
 
+.service-wrapper:hover, .service-wrapper:focus, .service-wrapper:focus-within {
+    scale: 1.1;
+}
 /* Portfolio */
 
 .portfolio-up {
