@@ -373,16 +373,22 @@ input[type="checkbox"]:checked ~ .hamburger {
     margin-top: 0.75rem;
 }
 
-#partner-logo {
-    display: block;
+.partner-logo {
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
     filter: grayscale();
     transition: filter 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#partner-logo:hover {
+.partner-logo:hover {
     filter: none;
+}
+
+.partner-wrapper {
+    text-align: center;
 }
 
 /* Testimonials */
@@ -525,7 +531,7 @@ input[type="checkbox"]:checked ~ .hamburger {
     margin-bottom: 4rem;
 }
 
-#p1 {
+#p1, #p6 {
     background-color: #c7c4f3;
 }
 

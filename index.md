@@ -36,6 +36,12 @@ p5-image: cardanfire
 p5-description: Cardan Fire is a professional fire safety consultancy based in the South of England ensuring that businesses, landlords and individuals comply to the Fire Safety Laws within the UK.
 p5-link: https://cardanfire.co.uk/
 
+p6-title: First Automotive
+p6-type: Web Development
+p6-image: firstauto
+p6-description: Built with a CMS for stock management, Polax enables First Automotive to display and update both classic and performance cars to their clientele.
+p6-link: https://firstautoltd.com
+
 partner-tagline: We work with industry-leading brands to provide you fantastic results with no compromise on quality.
 
 client-tagline: Don't just take our word for it.<br>Hear from some of the clients who's businesses we've helped empower online.

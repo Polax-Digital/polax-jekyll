@@ -164,27 +164,52 @@
                 </div>
                 <div class="row gx-5">
                     <div class="col-12 col-md-6 pf-landing">
-                        <div class="pf-img-container" id="p1">
-                            <picture class="d-flex justify-content-center">
-                                <source
-                                    type="image/webp"
-                                    srcset="/assets/images/webp/portfolio/{{ page.p1-image }}.webp"
-                                />
-                                <source
-                                    type="image/png"
-                                    srcset="/assets/images/portfolio/{{  page.p1-image }}.png"
-                                />
-                                <img
-                                    src="/assets/images/portfolio/{{  page.p1-image }}.png"
-                                    class="pf-img"
-                                    alt="Portfolio Image"
-                                    height="500"
-                                    width="1000"
-                                />
-                            </picture>
+                        <div class="pf-img-container" id="p6">
+                            <div class="row">
+                                <div class="col pf-img-left">
+                                    <picture class="d-flex justify-content-end">
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p6-image }}.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p6-image }}.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p6-image }}.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            height="750"
+                                            width="480"
+                                        />
+                                    </picture>
+                                </div>
+                                <div class="col pf-img-right">
+                                    <picture
+                                        class="d-flex justify-content-start"
+                                    >
+                                        <source
+                                            type="image/webp"
+                                            srcset="/assets/images/webp/portfolio/{{ page.p6-image }}2.webp"
+                                        />
+                                        <source
+                                            type="image/png"
+                                            srcset="/assets/images/portfolio/{{  page.p6-image }}2.png"
+                                        />
+                                        <img
+                                            src="/assets/images/portfolio/{{  page.p6-image }}2.png"
+                                            class="pf-img"
+                                            alt="Portfolio Image"
+                                            width="480"
+                                            height="750"
+                                        />
+                                    </picture>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="pf-subtitle">{{ page.p1-title }}</h2>
-                        <p class="pf-text">{{ page.p1-description }}</p>
+                        <h2 class="pf-subtitle">{{ page.p6-title }}</h2>
+                        <p class="pf-text">{{ page.p6-description }}</p>
                     </div>
                     <div class="col-12 col-md-6 portfolio-up pf-landing">
                         <div class="pf-img-container" id="p2">
@@ -386,7 +411,7 @@
                                     alt="Linode Partnership Logo"
                                     height="65"
                                     width="166"
-                                    id="partner-logo"
+                                    class="partner-logo"
                                 />
                             </picture>
                         </div>
